@@ -1,0 +1,41 @@
+body {
+    background: #C9FFBF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box{
+    display: inline-block; 
+    /*Controla estructuras: block(coloca en bloques hacia abajo), inline block (bloques en una linea),inline (elmentos en linea), none (oculta elementos) */
+    width: 100px; /*Ancho*/
+    height: 100px; /*Altura*/
+    background: #d384d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #834d84);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #be81bf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;/*Color texto*/
+Border-radius: 10px;
+}
+
+#three {
+    position: relative; /*Absolute (los manda arriba), fixed(se posiciona al lado del navegador), sticky (se pega en su lugar), relativo (), static()*/
+    top: 20px;
+    left: 20px;
+    background-color: palevioletred;
+}
+
+#four {
+    position: absolute; /*Absolute (los manda arriba), fixed(se posiciona al lado del navegador), sticky (se pega en su lugar), relativo (), static()*/
+    top: 20px;
+    left: 20px;
+    background-color: palevioletred;
+}
+
+/*Las clases se llaman con .clase y los id con #id
+Padding: espacio entre contenido y borde*/
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow: auto; /*hidden (limita bloques), scroll(crea un scroll), auto (permite hacer hacia arriba y abajo scroll) */
+    padding-left: 150px; /*espacio entre contenido y borde*/
+
+}
